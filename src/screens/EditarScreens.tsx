@@ -4,8 +4,10 @@ import Head from "../components/Head";
 import Footer from "../components/Footer";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { TextInput } from "react-native-gesture-handler";
+import Listagem from "./ListagemScreens";
 
 const Editar:React.FC = () => {
+    const [carro, setCarros] = useState<Carro[]>([]);
     const [modelo, SetModelo] = useState<string>('');
     const [ano, SetAno] = useState<string>('0');
     const [marca, SetMarca] = useState<string>('');
@@ -22,16 +24,16 @@ const Editar:React.FC = () => {
     const route = useRoute();
 
     useEffect(()=> {
-        const {carro}= route.params;
+        const {item} = route.params;
 
-        SetModelo(carro.modelo);
-        SetAno(carro.ano);
-        SetMarca(carro.marca);
-        SetCor(carro.cor);
-        SetPeso(carro.peso);
-        SetPotencia(carro.potencia);
-        SetDescricao(carro.descricao);
-        SetPreco(carro.preco);
+        SetModelo(item.modelo);
+        SetAno(item.ano);
+        SetMarca(item.marca);
+        SetCor(item.cor);
+        SetPeso(item.peso);
+        SetPotencia(item.potencia);
+        SetDescricao(item.descricao);
+        SetPreco(item.preco);
 
 
     })

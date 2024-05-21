@@ -68,7 +68,7 @@ function Listagem():React.JSX.Element{
                     <TouchableOpacity onPress={() => hendleDelete(item.id)}>
                         <Image source={require('../assents/images/delete.png')}style={styles.delete}/>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={()=> navigation.navigate('editar')}>
+                    <TouchableOpacity onPress={()=> navigation.navigate('editar',{item})}>
                         <Image source={require('../assents/images/editar.png')} style={styles.editar}/>
                     </TouchableOpacity>
                 </TouchableOpacity>
