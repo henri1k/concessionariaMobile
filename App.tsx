@@ -1,5 +1,4 @@
 import React from 'react';
-import { View } from 'react-native';
 import Cadastro from './src/screens/CadastroScreens';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
