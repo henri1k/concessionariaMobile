@@ -10,9 +10,6 @@ function Footer(): React.JSX.Element{
             <TouchableOpacity onPress={()=> navigation.navigate('listagem')}>
                 <Image source={require('../assents/images/home.png')} style={styles.FooterIcon}/>
             </TouchableOpacity>
-            <TouchableOpacity onPress={()=> navigation.navigate('pesquisa')}>
-                <Image source={require('../assents/images/lupa.png')} style={styles.FooterIcon}/>
-            </TouchableOpacity>
             <TouchableOpacity onPress={()=> navigation.navigate('cadastro')}>
                 <Image source={require('../assents/images/avatar.png')} style={styles.FooterIcon}/>
             </TouchableOpacity>
