@@ -60,7 +60,7 @@ const Editar: React.FC = () => {
 
     return (
         <View style={styles.container}>
-            <StatusBar backgroundColor='red' barStyle="light-content" />
+            <StatusBar backgroundColor='#3a415a' barStyle="light-content" />
             <Head />
             <View>
                 <TextInput value={modelo}

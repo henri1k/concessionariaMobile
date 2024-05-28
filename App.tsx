@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Listagem from './src/screens/ListagemScreens';
 import Editar from './src/screens/EditarScreens';
+import Marca from './src/screens/MarcaScreens';
 
 const Stack = createStackNavigator();
 
@@ -14,6 +15,7 @@ function App(): React.JSX.Element {
         <Stack.Screen name='listagem' component={Listagem} options={{ headerShown: false}}/>
         <Stack.Screen name='cadastro' component={Cadastro} options={{ headerShown: false}}/>
         <Stack.Screen name='editar' component={Editar} options={{ headerShown: false}}/>
+        <Stack.Screen name='marca' component={Marca} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
