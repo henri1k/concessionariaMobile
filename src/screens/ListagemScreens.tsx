@@ -73,6 +73,7 @@ function Listagem(): React.JSX.Element {
             console.log(error);
         }
     }
+    
 
 
 
@@ -106,6 +107,7 @@ function Listagem(): React.JSX.Element {
                 placeholder="Pesquise por modelo"
                 value={modeloPequisa}
                 onChangeText={setModeloPesquisa}
+                
             />
             <TouchableOpacity style={styles.Pesquisa} onPress={() => buscar()}><Text>Pesquisar</Text></TouchableOpacity>
 
