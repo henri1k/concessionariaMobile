@@ -67,12 +67,13 @@ function Listagem(): React.JSX.Element {
             const response = await axios.get('http://10.137.11.232:8000/api/carro/all');
             //  console.log(response.data)
             if (response.data.status === true) {
-                setCarros(response.data.data); // Set the state with the correct data
+                setCarros(response.data.data); 
             }
         } catch (error) {
             console.log(error);
         }
     }
+    
 
 
 
@@ -106,6 +107,7 @@ function Listagem(): React.JSX.Element {
                 placeholder="Pesquise por modelo"
                 value={modeloPequisa}
                 onChangeText={setModeloPesquisa}
+                
             />
             <TouchableOpacity style={styles.Pesquisa} onPress={() => buscar()}><Text>Pesquisar</Text></TouchableOpacity>
 

@@ -1,79 +1,70 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h1 align="center"> Concessionária Bumblebee Drive's </h1>
+<p align="center">
+<img src="./src/assents/images/logotipo.png" alt="LOGO">
+</p>
 
-# Getting Started
+# Índice 
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Objetivos](#objetivos)
+* [Status do Projeto](#status-do-Projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-do-projeto)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+<h2 align="center">Descrição do Projeto</h2>
+O projeto de front end da Bumblebee Drive é destinado a criar uma interface de usuário intuitiva, responsiva e visualmente atraente para a concessionária de veículos. A plataforma deve proporcionar uma experiência de navegação fluida, facilitando o acesso às informações sobre veículos, serviços, promoções e suporte ao cliente.
+<hr>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+<h2 align="center">Objetivos</h2>
+O projeto de front end da Bumblebee Drive visa não apenas fornecer informações sobre veículos e serviços, mas também criar uma experiência de usuário envolvente que reflita a qualidade e a excelência da concessionária. Com foco em design responsivo, performance e interatividade, a plataforma está destinada a se tornar uma ferramenta essencial para clientes e para o sucesso contínuo da Bumblebee Drive.
+<hr>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=7159c1&style=for-the-badge"/>
+</p>
+<hr>
 
-```bash
-# using npm
+# Funcionalidades do projeto
+* ✔️`Funcionalidade 1`: Experiência do Usuário (UX): Garantir uma navegação simples e intuitiva, com fácil acesso às informações essenciais.
+* ✔️`Funcionalidade 2`: Design Responsivo: A interface deve ser totalmente responsiva, oferecendo uma experiência consistente em dispositivos móveis, tablets e desktops.
+* ✔️`Funcionalidade 3`:Estética Atraente: Utilizar um design moderno e limpo, que reflita a identidade visual da Bumblebee Drive.
+* ✔️`Funcionalidade 4`:Performance: Otimizar o tempo de carregamento das páginas e a performance geral da aplicação.
+* ✔️`Funcionalidade 5`:Funcionalidades Interativas: Implementar funcionalidades interativas que envolvam os usuários, como filtros de busca avançados, comparadores de veículos, agendamento de test drives e outros.
+
+
+# 💻 Tecnologias utilizadas
+- HTML5 e CSS: Para a estruturação e estilização das páginas.
+- JavaScript: Para a implementação de funcionalidades interativas.
+- Frameworks e Bibliotecas: React.js ou Angular.js para criação de componentes reutilizáveis e gerenciamento de estado.
+- Integração com APIs: Para obter dados dinâmicos, como inventário de veículos e informações de serviços.
+ # 📁 Acesso ao projeto
+ ```
+ git clone https://github.com/guilealp/concessionariaMobile.git
+  ```
+
+# 🛠️ Abrir e rodar o projeto
+ ```
+cd concessionariaFront
+ ```
+ ```
+code .
+ ```
+ ```
+npm install
+ ```
+```
+git config --global user.name "guilealp"
+ ```
+```
+git config --global user.email "guilherme.3110@hotmail.com"
+ ```
+  ```
 npm start
+ ```
 
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+# 👩🏽‍👩🏽‍👦🏽‍👦🏽 Desenvolvedores do projeto 
+* [Emilly Beatriz](https://github.com/MIMIMINISAIA)
+* [Guilherme Leal](https://github.com/guilealp)
+* [Mariana Leoncio](https://github.com/marileoncio)
+* [Henrique Gois](https://github.com/songomongo)
