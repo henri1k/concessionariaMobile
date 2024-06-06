@@ -1,6 +1,6 @@
 <h1 align="center"> Concessionária Bumblebee Drive's </h1>
 <p align="center">
-<img src="logo.png" alt="LOGO">
+<img src="./src/assents/images/logotipo.png" alt="LOGO">
 </p>
 
 # Índice 

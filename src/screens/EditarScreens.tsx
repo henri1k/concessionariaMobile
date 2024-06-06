@@ -52,7 +52,7 @@ const Editar: React.FC = () => {
             }
         }).then(response => {
             console.log(response.data);
-            navigation.goBack(); // Redireciona para a tela anterior após a atualização bem-sucedida
+            navigation.goBack(); // redireciona para a tela anterior após a atualização bem-sucedida
         }).catch(error => {
             console.error(error);
         });
