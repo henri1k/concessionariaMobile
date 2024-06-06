@@ -126,7 +126,7 @@ const styles= StyleSheet.create({
     form:{
         padding:10,
         backgroundColor:'#F2d22e',
-        marginBottom:10
+        marginBottom:11
     },
     input:{
         margin:10,
